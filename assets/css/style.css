@@ -1,0 +1,233 @@
+/*https://coolors.co/f4f1de-e07a5f-3d405b-81b29a-f2cc8f*/
+
+:root {
+    --eggshell: #f4f1de;
+    --terracotta: #e07a5f;
+    --independence: #3d405b;
+    --greenSheen: #81b29a;
+    --deepChampagne: #f2cc8f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--eggshell);
+    font-size: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2;
+    padding: 1;
+}
+
+p {
+    color: var(--independence);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--terracotta);
+    padding: 20px 20px 20px 0;
+}
+
+.header-my-name {
+    color: var(--independence);
+    background-color: var(--eggshell);
+    padding: 5px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.nav-links {
+    display: flex;
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: white;
+    background-color: var(--independence);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: var(--deepChampagne);
+    text-decoration: underline;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    float: right; 
+    background-color: var(--independence);
+}
+
+.nav-links ul li {
+    margin: 7px; 
+    display: inline-block;
+    background-color: var(--independence);
+}
+
+.row {
+    border-right: 5px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    margin: 25px 0%;
+    
+}
+
+.row h2 {
+    border-right: 5px solid var(--independence);
+    text-align: right;
+    flex: 0 0 20%; 
+    padding: 1%;
+    margin: 2px; 
+    color: var(--independence);
+    font-size: 22px;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.container {
+flex: 0 0 75%;
+margin-left: 2%
+}
+
+#about-me div {
+    display: inline-block;
+}
+
+.photo {
+    float: left; 
+    margin-right: 2%;
+    width: 20%;
+    border-radius: 4%;
+}
+
+#work {
+    flex-direction: row; 
+}
+
+.projects {
+   
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+}
+
+.project-card, .homework-card {
+    border: 5px solid var(--independence);
+    text-align: left;
+    color: var(--eggshell);
+    margin: 2px;
+
+}
+
+.project-card:hover, .homework-card:hover {
+    opacity: 1; 
+    border: var(--independence);
+    color: var(--eggshell);
+    box-shadow: 0 0 5px var (--deepChampagne);
+}
+
+.project-card {
+    max-width: 49%;
+}
+
+.project-image {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.project-title {
+    position: absolute;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    font-size: 12px;
+    bottom: 20px;
+    background-color: var(--terracotta);
+    color: var(--eggshell);
+    text-align: left;
+    padding: 1%
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.contact-links ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contact-links ul li {
+    margin: 10px; 
+    padding: 2%; 
+    display: inline-block;
+}
+
+.contact-links a {
+    font-size: 18px;
+    color: var(--independence);
+}
+
+.contact-links a:hover {
+    padding: 5px; 
+    color: var(--deepChampagne);
+    background-color: var(--independence);
+}
+
+footer p {
+    font-size: smaller;
+    text-align: left;
+}
+
+@media screen and (max-width: 980px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: row;
+    }
+    .project-card {
+        max-width: 100%;
+        aspect-ratio: 2.5;
+    }
+    .homework-card {
+        max-width: 100%;
+        aspect-ratio: 2.5;
+    }
+}
+
+@media screen and (max-width: 600 px) {
+
+    .row h2 {
+        min-width: 20%;
+        font-size: smaller;
+    }
+    .project-title {
+        font-size: smaller;
+    }
+
+    .contact-links a {
+        font-size: smaller;
+    }
+
+}
