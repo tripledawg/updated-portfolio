@@ -3,7 +3,7 @@
 
 ![screenshot](./assets/images/screenshot-updated-portfolio.png)
 
-[link](https://tripledawg.github.io/updated-portfolio/)
+[Click here to view my updated and deployed portfolio.](https://tripledawg.github.io/updated-portfolio/)
 
 ## Description   
 
