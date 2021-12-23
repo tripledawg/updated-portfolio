@@ -96,7 +96,7 @@ p {
 
 .row h2 {
     border-right: 5px solid var(--darkgreenblack);
-    border-top-right-radius: 2px;
+    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     text-align: right;
     flex: 0 0 20%; 
