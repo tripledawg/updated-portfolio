@@ -1,7 +1,7 @@
 
 # Updated Portfolio
 
-![screenshot](images/screenshot-updated-portfolio.png)
+![screenshot](./assets/images/screenshot-updated-portfolio.png)
 
 [link](https://tripledawg.github.io/updated-portfolio/)
 
