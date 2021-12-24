@@ -2,6 +2,7 @@
 # Updated Portfolio
 
 ![screenshot](./assets/images/screenshot-updated-portfolio.png)
+![screenshot](./assets/images/profilescreenshot2.png)
 
 [Click here to view my updated and deployed portfolio.](https://tripledawg.github.io/updated-portfolio/)
 
