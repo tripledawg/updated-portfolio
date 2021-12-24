@@ -144,9 +144,27 @@ margin-left: 2%
     max-width: 100%;
 }
 
+.project-card div {
+    text-decoration: none;
+    color: white;
+}
+.project-card div h3{
+    text-decoration: none;
+    color: white;
+}
+
 .homework-card {
     margin: 10px;
     max-width: 49%;
+}
+
+.homework-card div {
+    text-decoration: none;
+    color: white
+}
+.homework-card div h3 {
+    text-decoration: none;
+    color: white
 }
 
 .project-image {
