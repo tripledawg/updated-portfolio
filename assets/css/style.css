@@ -138,6 +138,13 @@ margin-left: 2%
     opacity: 1; 
     border-color: var(--darkgreenblack);
 }
+.project-title:hover {
+    border-style: solid;
+    border-radius: 2px;;
+    border-color: var( --green);
+    /* color: var(--mintcream);
+    text-decoration: underline; */
+}
 
 .project-card {
     margin: 10px;
