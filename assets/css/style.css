@@ -131,6 +131,8 @@ margin-left: 2%
     text-align: left;
     margin: 2px;
     opacity: .85;
+    max-height: 550px;
+    max-width: 600px
 
 }
 /*pseudo classes for hover*/
